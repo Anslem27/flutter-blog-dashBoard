@@ -21,7 +21,7 @@ List demoMyFiles = [
   BlogPosts(
     title: "Editors Picks",
     numOfFiles: 1328,
-    svgSrc: "assets/icons/media.svg",
+    svgSrc: "assets/icons/folder.svg",
     color: Color(0xFFFFA113),
     percentage: 35,
   ),

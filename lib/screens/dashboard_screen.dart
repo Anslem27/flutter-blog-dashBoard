@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 import '../components/nav_bar.dart';
 import '../components/preview.dart';
 import '../components/editor.dart';
-import '../../components/storage_details.dart';
+import '../components/stats_and_details.dart';
 import '../../constants.dart';
 
 class DashboardScreen extends StatelessWidget {
@@ -29,7 +29,7 @@ class DashboardScreen extends StatelessWidget {
                       BlogEditor(),
                       if (Responsive.isMobile(context))
                         SizedBox(height: defaultPadding),
-                      if (Responsive.isMobile(context)) StarageDetails(),
+                      if (Responsive.isMobile(context)) Details(),
                     ],
                   ),
                 ),
@@ -39,7 +39,7 @@ class DashboardScreen extends StatelessWidget {
                 if (!Responsive.isMobile(context))
                   Expanded(
                     flex: 2,
-                    child: StarageDetails(),
+                    child: Details(),
                   ),
               ],
             )

@@ -31,10 +31,8 @@ class _BlogEditorState extends State<BlogEditor> {
     }
   }
 
-  //set some initial dummyPost Data
-  // editorController!.text = dummyPost;
   void _printLatestValue() {
-    print('Second text field: ${editorController!.text}');
+    print('${editorController!.text}');
   }
 
   @override
@@ -90,7 +88,10 @@ class _BlogEditorState extends State<BlogEditor> {
                         ),
                         backgroundColor: Theme.of(context).cardColor,
                       ),
-                      onPressed: () {},
+                      onPressed: () {
+                        editorController!.text = dummyPost;
+                        setState(() {});
+                      },
                       icon: Icon(Icons.add),
                       label: Text("Use Template"),
                     ),
@@ -122,7 +123,7 @@ class _BlogEditorState extends State<BlogEditor> {
                       controller: editorController,
                       decoration: InputDecoration(
                         border: InputBorder.none,
-                        hintText: "Description",
+                        hintText: "Edit your blog markdown here",
                       ),
                       onChanged: (text) {
                         editorController!.text;

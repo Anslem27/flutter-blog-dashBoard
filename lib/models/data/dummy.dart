@@ -10,9 +10,6 @@ Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
 
 ![](https://dd7tel2830j4w.cloudfront.net/f1658381660809x786549254436927200/Yuppies%20-%20Coding.svg)
 
-Visit the [blog template]()
-
-\- or -
 
 Try it out. 👇
 --------------
@@ -111,19 +108,6 @@ YouTube
 -------
 
 #### Editor
-
-#### Viewer
-
-               
-
-!\[Rick in 4k\](https://youtu.be/o-YBDTqX\_ZU)
-
-
-               
-
-Easily embed YouTube videos responsively and efficiently.
-
-Easily embed YouTube videos responsively and efficiently.
 
 Code Highlighting
 -----------------
