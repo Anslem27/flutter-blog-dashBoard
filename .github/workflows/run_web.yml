@@ -2,15 +2,42 @@ name: Gh-Pages
 
 on:
   push:
-    branches: [ master ]
+    branches: [master]
 
 jobs:
-  build:
+  build_web:
+    name: Build Flutter (Web)
     runs-on: ubuntu-latest
-
     steps:
-      - uses: actions/checkout@v2 # Only works with v2
+      - uses: actions/checkout@v1
       - uses: subosito/flutter-action@v1
+        with:
+          channel: "stable"
+      - run: flutter pub get
+      - run: flutter config --enable-web
+      - run: flutter build web
+      - name: Archive Production Artifact
+        uses: actions/upload-artifact@master
+        with:
+          name: web-build
+          path: build/web
+
+  deploy_web:
+    name: Deploy Web to Github Pages
+    needs: build_web
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repo
+        uses: actions/checkout@master
+      - name: Download Artifact
+        uses: actions/download-artifact@master
+        with:
+          name: web-build
+          path: web-build
+      - name: Deploy to Github
+        uses: subosito/flutter-action@v1
       - uses: bluefireteam/flutter-gh-pages@v7
         with:
-            baseHref: /Flutter-Responsive-Admin-Panel-or-Dashboard/
+            path: /web-build
+
+
