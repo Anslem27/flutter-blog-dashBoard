@@ -29,6 +29,12 @@ $ flutter pub get
 $ flutter run -d chrome --web-renderer canvaskit
 ```
 
+## ToDo's
+
+- Add editting options for the editor
+- More features.
+- Clean up code
+
 ## Tech
 
 - [Flutter](http://flutter.dev/)
