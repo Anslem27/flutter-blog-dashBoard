@@ -41,5 +41,5 @@ $ flutter run -d chrome --web-renderer canvaskit
 
 ## You may also like...
 
-- [Drink Up](https://github.com/amitmerchant1990/pomolectron) - A simple easy to use water intake tracker.
-- [Anslem.io](https://github.com/amitmerchant1990/correo) - My personal portfolio website made with flutter.
+- [Drink Up]() - A simple easy to use water intake tracker.
+- [Anslem.io]() - My personal portfolio website made with flutter.
