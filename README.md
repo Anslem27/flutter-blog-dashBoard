@@ -11,7 +11,8 @@ This is my personal dashBoard project made with [flutter](https://flutter.dev).
   <br>
 </h1>
 
-<img src="./preview/Screenshot 2022-11-07 183134.png"/>
+<img src="./preview/Web capture_8-11-2022_212252_localhost.jpeg"/>
+<img src="./preview/Web capture_8-11-2022_212313_localhost.jpeg"/>
 
 ## How To Use
 
