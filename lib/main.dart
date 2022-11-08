@@ -2,8 +2,12 @@ import 'package:dashboard/constants.dart';
 import 'package:dashboard/views/main_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:url_strategy/url_strategy.dart';
 
 void main() {
+  WidgetsFlutterBinding
+      .ensureInitialized(); // binds all functions before calling main app
+  setPathUrlStrategy();
   runApp(MyApp());
 }
 
