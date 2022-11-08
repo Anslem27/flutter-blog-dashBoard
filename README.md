@@ -2,7 +2,7 @@
 
 Visit Live App [here](https://flutterwebblogdashboard.netlify.app/)
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/32e549be-22b7-4a80-b487-c746218fc72a/deploy-status)](https://app.netlify.com/sites/harmonious-alfajores-485231/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/32e549be-22b7-4a80-b487-c746218fc72a/deploy-status)](https://app.netlify.com/sites/flutterwebblogdashboard/deploys)
 
 This is my personal dashBoard project made with [flutter](https://flutter.dev).
 **Surely there's still room for more, so any sort of contributions are welcome**

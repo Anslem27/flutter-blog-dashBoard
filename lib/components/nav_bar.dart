@@ -3,7 +3,7 @@ import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
 import 'package:glassmorphism/glassmorphism.dart';
 import 'package:google_fonts/google_fonts.dart';
-
+import 'dart:js' as js;
 import 'appbar_logo.dart';
 
 class Header extends StatelessWidget {
@@ -68,7 +68,8 @@ class Header extends StatelessWidget {
               style: GoogleFonts.ubuntu(color: Colors.blue),
               recognizer: TapGestureRecognizer()
                 ..onTap = () {
-                  //js.context.callMethod('open', ["/"]);
+                  js.context
+                      .callMethod('open', ["https://anslem27.github.io/"]);
                 },
             ),
             TextSpan(
