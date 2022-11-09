@@ -33,6 +33,7 @@ $ flutter pub get
 # Run the app
 $ flutter run -d chrome --web-renderer canvaskit
 ```
+
 ## Concepts in project
 
 - Listeners and controllers.
@@ -51,5 +52,5 @@ $ flutter run -d chrome --web-renderer canvaskit
 
 ## You may also like...
 
-- [Drink Up]() - A simple easy to use water intake tracker.
-- [Anslem.io]() - My personal portfolio website made with flutter.
+- [Drink Up](https://github.com/Anslem27/Drink-up) - A simple easy to use water intake tracker.
+- [Anslem.io `Live`](http://anslem27.github.io/) [`repo`](https://github.com/Anslem27/Anslem.io) - My personal portfolio website made with flutter.
